@@ -5,7 +5,7 @@
   "main": "server/app",
   "scripts": {
     "dev": "nodemon --require dotenv/config server/app",
-    "build": "webpack --watch -d",
+    "build": "webpack --watch --progress -d",
     "lint": "eslint *.js client db scripts server",
     "test": "jest",
     "test:watch": "jest --watch"
